@@ -1,0 +1,72 @@
+# Core dependencies
+PyYAML>=6.0
+pydantic>=2.0
+
+# LLM & API clients
+requests>=2.31.0
+httpx>=0.24.0
+openai>=1.0.0
+anthropic>=0.7.0
+
+# Database & Memory
+SQLAlchemy>=2.0
+sqlite3  # Built-in, but listed for clarity
+chroma>=0.3.21
+faiss-cpu>=1.7.4
+
+# OS & Computer Control
+pyautogui>=0.9.53
+pynput>=1.7.6
+pillow>=10.0.0
+winsdk>=1.0.0  # Windows-specific
+
+# Browser Automation
+selenium>=4.13.0
+python-selenium-helpers>=1.0.0
+
+# Office Document Creation
+openpyxl>=3.1.0
+python-docx>=0.8.11
+pypdf>=3.17.0
+reportlab>=4.0.0
+
+# Voice & Audio
+pyttsx3>=2.90  # TTS
+SpeechRecognition>=3.10.0  # STT
+aiofiles>=23.2.0  # Async file I/O
+
+# Video & Media
+FFmpeg>=0.2.1
+opencv-python>=4.8.0
+
+# Web & Network
+beautifulsoup4>=4.12.0
+selenium-wire>=5.1.0
+
+# Utilities
+click>=8.1.0  # CLI framework
+colorama>=0.4.6  # Colored terminal output
+tabulate>=0.9.0  # Table formatting
+pydantic-settings>=2.0  # Config management
+
+# Async & Concurrency
+aiohttp>=3.9.0
+aiofiles>=23.2.0
+tqdm>=4.66.0  # Progress bars
+
+# Monitoring & Telemetry
+psutil>=5.9.6  # System monitoring
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+pytest-mock>=3.12.0
+
+# Logging & Debugging
+coloredlogs>=15.0.1
+
+# Development
+black>=23.11.0
+flake8>=6.1.0
+mypy>=1.7.0
